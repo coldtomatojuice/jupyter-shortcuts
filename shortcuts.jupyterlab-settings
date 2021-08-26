@@ -1,0 +1,74 @@
+{
+    "shortcuts": [
+        {
+            "command": "notebook:insert-cell-below",
+            "keys": [
+                "Ctrl Shift A"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:split-cell-at-cursor",
+            "keys": [
+                "Ctrl Shift S"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+        {
+            "command": "runmenu:restart-and-run-all",
+            "keys": [
+                "Ctrl Shift R"
+            ],
+            "selector": "[data-jp-code-runner]"
+        },
+        {
+            "command": "notebook:cut-cell",
+            "keys": [
+                "Ctrl Shift X"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:delete-cell",
+            "keys": [
+                "Ctrl Shift D"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:paste-cell-below",
+            "keys": [
+                "Ctrl Shift V"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:copy-cell",
+            "keys": [
+                "Ctrl Shift C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:clear-all-cell-outputs",
+            "keys": [
+                "Ctrl Shift W"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:clear-cell-output",
+            "keys": [
+                "Ctrl Shift E"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:restart-clear-output",
+            "keys": [
+                "Ctrl Shift Q"
+            ],
+            "selector": ".jp-Notebook:focus"
+        }
+    ]
+}
